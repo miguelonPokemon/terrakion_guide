@@ -7,10 +7,15 @@ Guía interactiva de Raid 4P para Terrakion modularizada con **Vite.js** y confi
 2. En **Settings > Pages**, configura el Source en **Deploy from a branch** seleccionando la rama **`gh-pages`** y la carpeta `/(root)`.
 3. Cada `git push` a `main` compilará y actualizará la web automáticamente mediante GitHub Actions.
 
-## 🛠️ Uso Local
+## Ejecución Local
 
 ```bash
+# Instalar dependencias
 npm install
+
+# Iniciar servidor de desarrollo
 npm run dev
+
+# Compilar para producción
 npm run build
 ```
