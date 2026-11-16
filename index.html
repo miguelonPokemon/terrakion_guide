@@ -12,8 +12,8 @@
 
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <script type="module" crossorigin src="./assets/index-CYgqm0vV.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BAF2miVt.css">
+  <script type="module" crossorigin src="./assets/index-8mosY7nE.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-qUEnAPlX.css">
 </head>
 <body class="min-h-screen flex flex-col antialiased selection:bg-terracotta-600 selection:text-white">
 
@@ -47,15 +47,27 @@
                 </div>
             </div>
 
-            <button
-                id="theme-toggle"
-                type="button"
-                class="px-3.5 py-2.5 rounded-xl elevated-surface hover:border-terracotta-500 transition-all flex items-center gap-2 cursor-pointer focus:outline-none focus:ring-2 focus:ring-terracotta-500"
-                aria-label="Cambiar tema"
-            >
-                <i id="theme-icon" class="fa-solid fa-sun text-amber-400 text-sm"></i>
-                <span id="theme-text" class="hidden sm:inline text-xs font-bold" style="color: var(--text-secondary);">Tema Claro</span>
-            </button>
+            <div class="flex items-center gap-2.5">
+                <a
+                    href="https://miguelonpokemon.github.io/hub_guide/"
+                    class="px-3.5 py-2.5 rounded-xl elevated-surface hover:border-terracotta-500 transition-all flex items-center gap-2 cursor-pointer text-xs font-bold no-underline"
+                    style="color: var(--text-secondary);"
+                    title="Ir al Hub de Guías"
+                >
+                    <i class="fa-solid fa-house text-terracotta-500"></i>
+                    <span class="hidden sm:inline">Hub de Guías</span>
+                </a>
+
+                <button
+                    id="theme-toggle"
+                    type="button"
+                    class="px-3.5 py-2.5 rounded-xl elevated-surface hover:border-terracotta-500 transition-all flex items-center gap-2 cursor-pointer focus:outline-none focus:ring-2 focus:ring-terracotta-500"
+                    aria-label="Cambiar tema"
+                >
+                    <i id="theme-icon" class="fa-solid fa-sun text-amber-400 text-sm"></i>
+                    <span id="theme-text" class="hidden sm:inline text-xs font-bold" style="color: var(--text-secondary);">Tema Claro</span>
+                </button>
+            </div>
         </div>
     </header>
 
